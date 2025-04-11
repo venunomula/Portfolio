@@ -28,6 +28,15 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Message saved successfully!");
     });
 });
+let count=0;
+function press(){
+    count++;
+    document.getElementById("ul").style.display="block"
+    if(count%2==0){
+        document.getElementById("ul").style.display="none"
+    }
+    
+}
 
 
 
